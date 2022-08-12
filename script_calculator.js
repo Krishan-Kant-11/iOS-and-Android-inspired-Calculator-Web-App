@@ -54,7 +54,7 @@ function equalButton(){
 
 function themeButton(){
     if(document.getElementById("theme").innerHTML == "Light"){
-    document.body.style.backgroundColor = "rgb(141, 263, 241)";
+    document.body.style.backgroundColor = "white";
     // document.body.style.backgroundImage = "url('image.jpg')";
     document.getElementById("theme").innerHTML = "Dark";
     document.getElementById("heading").style.color = "rgb(40, 100, 100)";
