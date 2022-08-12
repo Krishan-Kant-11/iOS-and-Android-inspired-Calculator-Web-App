@@ -9,8 +9,9 @@ body{
 /* @media all and (max-width: 1300px){
 	body{
 		background: linear-gradient(to right top, rgb(141, 263, 241), rgb(148, 259, 275)) ;
+		background-image: none;
 	}
-} */
+}  */
 
 h1{
 	color: white;
