@@ -1,5 +1,17 @@
 let button = document.getElementsByClassName("button");
 
+function homeButton(){
+    location.href ="index.html";
+}
+
+function moreButton(){
+    location.href = "more.html";
+}
+
+function aboutButton(){
+    location.href = "about.html";
+}
+
 function myFunction(n){
     document.getElementById("display").innerHTML += n;
 }
@@ -58,7 +70,7 @@ function themeButton(){
     // document.body.style.backgroundImage = "url('image.jpg')";
     document.getElementById("theme").innerHTML = "Dark";
     document.getElementById("heading").style.color = "rgb(40, 100, 100)";
-    document.getElementById("display").style.backgroundColor = "rgb(240, 248, 262)";
+    document.getElementById("display").style.backgroundColor = "rgb(220, 228, 242)";
     document.getElementById("display").style.color = "black";
 
     let navButtons = document.querySelectorAll(".navButton");

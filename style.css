@@ -28,14 +28,6 @@ h1{
 	border-style: none;
 }
 
-.content{
-	margin-top: 1%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	margin-bottom: 0px;
-}
-
 .heading{
 	text-align: center;
 	margin-bottom: 1em;
@@ -86,4 +78,16 @@ h1{
 	width: 10vh;
 	height: 6vh;
 	max-width: 80px;
+}
+
+.aboutPara{
+	color: #a0a0a0;
+	text-align: center;
+	margin: 5% 5% 10% 5%;
+}
+
+.morePara{
+	color: #a0a0a0;
+	text-align: center;
+	margin: 5% 5% 10% 5%;
 }
