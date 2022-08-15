@@ -61,7 +61,17 @@ function conjugateButton(){
 }
 
 function equalButton(){
-    document.getElementById("display").innerHTML = eval(document.getElementById("display").innerHTML);
+    let displayText = document.getElementById("display").innerHTML;
+    if(displayText.indexOf("%") == -1){
+        document.getElementById("display").innerHTML = eval(document.getElementById("display").innerHTML);
+    } else{
+        let left = displayText.substring(0, displayText.indexOf("%"));
+        let right = displayText.substring(displayText.indexOf("%")+1, displayText.length);
+        let ansLeft = eval(left);
+        let ansRight = eval(right);
+        let ans = (ansLeft/100)*ansRight;
+        document.getElementById("display").innerHTML = ans;
+    }
 }
 
 function themeButton(){
